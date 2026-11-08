@@ -1,0 +1,31 @@
+true.
+
+% T3: Fahrzeugbelegung
+listing(vehicle/3).
+
+
+vehicle(car1, west, left).
+vehicle(car2, east, right).
+
+true.
+
+can_drive(car1).
+
+
+false.
+
+can_drive(car2).
+
+
+true.
+
+must_yield(VehicleA, VehicleB).
+
+
+VehicleA = car1,
+VehicleB = car2 	;
+false.
+
+noprotocol.
+
+
